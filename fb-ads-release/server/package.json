@@ -1,0 +1,24 @@
+{
+  "name": "fb-ads-insight-server",
+  "version": "1.0.0",
+  "description": "FB Ads Insight - Backend API server for adlibrary.com integration",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.2",
+    "lru-cache": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.15",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  }
+}
